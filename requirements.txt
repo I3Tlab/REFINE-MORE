@@ -1,0 +1,57 @@
+absl-py==2.3.0
+Brotli @ file:///home/conda/feedstock_root/build_artifacts/brotli-split_1725267488082/work
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1739515848642/work/certifi
+cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1725560520483/work
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1735929714516/work
+contourpy==1.3.1
+cycler==0.12.1
+fonttools==4.56.0
+grpcio==1.71.0
+h2 @ file:///home/conda/feedstock_root/build_artifacts/h2_1738578511449/work
+h5py==3.13.0
+hpack @ file:///home/conda/feedstock_root/build_artifacts/hpack_1737618293087/work
+hyperframe @ file:///home/conda/feedstock_root/build_artifacts/hyperframe_1737618333194/work
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1733211830134/work
+importlib_resources==6.5.2
+joblib==1.5.1
+kiwisolver==1.4.8
+llvmlite==0.44.0
+Markdown==3.8
+MarkupSafe==3.0.2
+mat73==0.65
+matplotlib==3.10.1
+-e git+https://github.com/cccntu/minLoRA.git@d47a4c93df87540bb396172cfac1f3246e7db5f9#egg=minLoRA
+nibabel==5.3.2
+numba==0.61.0
+numpy==1.24.4
+packaging==24.2
+pandas==2.3.0
+Pillow @ file:///home/conda/feedstock_root/build_artifacts/pillow_1675487172403/work
+protobuf==6.31.1
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pycparser_1733195786/work
+pyparsing==3.2.1
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1733217236728/work
+python-dateutil==2.9.0.post0
+pytorch-wavelets==1.3.0
+pytz==2025.2
+PyWavelets==1.8.0
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1733217035951/work
+scikit-learn==1.7.0
+scipy==1.15.2
+seaborn==0.13.2
+sigpy==0.1.27
+simpleitk==2.5.0
+six==1.17.0
+tensorboard==2.19.0
+tensorboard-data-server==0.7.2
+threadpoolctl==3.6.0
+tinycudann @ git+https://github.com/NVlabs/tiny-cuda-nn/@075158a70b87dba8729188a9cadc9411cfa4b71d#subdirectory=bindings/torch
+torch==1.13.1
+torchaudio==0.13.1
+torchvision==0.14.1
+tqdm==4.67.1
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1733188668063/work
+tzdata==2025.2
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1734859416348/work
+Werkzeug==3.1.3
+zstandard==0.23.0
