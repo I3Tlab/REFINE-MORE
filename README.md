@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 
 ### Inference
-We provided an example fully-sampled k-space data of multiparametric quantitative magnetization transfer imaging, which can be found in  `./data` folder. 
+We provided an example fully-sampled k-space data of multiparametric quantitative magnetization transfer imaging, which can be found in [here](https://www.dropbox.com/scl/fo/ejumetyiqh5uzmbvstb3l/AKXk0GVQXMCn4rr37bQF93Y?rlkey=0732mgwqvk2qs72fk3verhze0&st=ashg1w13&dl=0). 
 
 To run the reconstruction demo, please use the following command:
 
