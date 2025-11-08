@@ -2,7 +2,7 @@
 
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
-- [Publication](#publication)
+- [Inference](#inference)
 - [Contacts](#contacts)
 
 ## Introduction
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 
 ### Inference
-We provided an example fully-sampled k-space data of multiparametric quantitative magnetization transfer imaging, which can be found in [here](https://www.dropbox.com/scl/fo/ejumetyiqh5uzmbvstb3l/AKXk0GVQXMCn4rr37bQF93Y?rlkey=u3pzbx48msl2jwt2yyq38ku27&st=ysnuzjbk&dl=0). 
+We provided an example fully-sampled k-space data of multiparametric quantitative magnetization transfer imaging, which can be found in [here](https://www.dropbox.com/scl/fo/ejumetyiqh5uzmbvstb3l/AKXk0GVQXMCn4rr37bQF93Y?rlkey=u3pzbx48msl2jwt2yyq38ku27&st=62bihwho&dl=0). 
 
 To run the reconstruction demo, please use the following command:
 
