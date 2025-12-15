@@ -1,14 +1,38 @@
 # Accelerating multiparametric quantitative MRI using self-supervised scan-specific implicit neural representation with model reinforcement
 
+[![arXiv](https://img.shields.io/badge/arXiv-2511.19641-b31b1b.svg)](https://arxiv.org/abs/2508.00891)
+
+This repository provides the official implementation of the paper: [Accelerating multiparametric quantitative MRI using self-supervised scan-specific implicit neural representation with model reinforcement](https://arxiv.org/abs/2508.00891)
+
 - [Introduction](#introduction)
+- [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Inference](#inference)
+- [Citation](#citation)
 - [Contacts](#contacts)
 
 ## Introduction
 REFINE-MORE (REference-Free Implicit NEural representation with MOdel REinforcement) is a self-supervised scan-specific method for multiparametric quantitative MRI reconstruction, which integrates the implicit neural representation (INR) with MR physics-based model reinforcement. Specifically, REFINE-MORE models the underlying weighted images and multiparametric parameter maps as coordinate-based functions, parameterized by hash encodings and MLPs, providing a compact and memory-efficient representation of the entire four-dimensional (3D + parametric) data. A model reinforcement module further refines these parameter estimates by enforcing data consistency with the measured k-space data, thereby improving reconstruction accuracy and robustness. 
 
 ![Figure1.jpg](Figure1.jpg)
+
+## Project Structure
+
+The main components of this repository are organized as follows:
+
+```
+REFINE-MORE/
+├── recon_demo.py              # End-to-end demo script for running REFINE-MORE reconstruction on the provided example dataset.
+├── model.py                   # Core implementation of the INR-based initialization and the unrolled physics reinforcement.
+├── loss_function.py           # Loss functions used for training.
+├── Utils.py                   # Utility functions.
+├── unet/                      # UNet architecture
+│   ├── unet_model.py
+│   ├── unet_parts.py
+│   └── pre_trained_weights/   # Pre-trained UNet weights
+├── outputs_demo/              # Example outputs from running the demo (logs, trained models, and reconstructed results).
+├── image_examples/            # Example images for image-language embedding extraction
+```
 
 ## Getting Started
 The hardware and software environment we tested:
@@ -41,14 +65,27 @@ pip install -r requirements.txt
 
 
 ### Inference
-We provided an example fully-sampled k-space data of multiparametric quantitative magnetization transfer imaging, which can be found in [here](https://www.dropbox.com/scl/fo/ejumetyiqh5uzmbvstb3l/AKXk0GVQXMCn4rr37bQF93Y?rlkey=u3pzbx48msl2jwt2yyq38ku27&st=62bihwho&dl=0). 
+We provide an example fully sampled k-space dataset of multiparametric quantitative magnetization transfer imaging, which can be found [here](https://www.dropbox.com/scl/fo/ejumetyiqh5uzmbvstb3l/AKXk0GVQXMCn4rr37bQF93Y?rlkey=u3pzbx48msl2jwt2yyq38ku27&e=2&st=62bihwho&dl=0). 
 
 To run the reconstruction demo, please use the following command:
 
 ```bash
 python recon_demo.py
 ```
-Reconstruction results are output to the `outputs/` folder as .mat format.
+
+Reconstruction results are written to the `outputs/` folder in `.mat` format.
+
+## Citation
+If you use REFINE-MORE in your research, please cite the corresponding paper:
+
+```bibtex
+@article{feng2025accelerating,
+  title={Accelerating multiparametric quantitative MRI using self-supervised scan-specific implicit neural representation with model reinforcement},
+  author={Feng, Ruimin and Jang, Albert and He, Xingxin and Liu, Fang},
+  journal={arXiv preprint arXiv:2508.00891},
+  year={2025}
+}
+```
 
 
 <!--### TODO
