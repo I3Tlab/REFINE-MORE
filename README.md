@@ -31,7 +31,6 @@ REFINE-MORE/
 │   ├── unet_parts.py
 │   └── pre_trained_weights/   # Pre-trained UNet weights
 ├── outputs_demo/              # Example outputs from running the demo (logs, trained models, and reconstructed results).
-├── image_examples/            # Example images for image-language embedding extraction
 ```
 
 ## Getting Started
