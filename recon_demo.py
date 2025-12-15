@@ -12,15 +12,15 @@ import Utils
 from tqdm import tqdm
 
 '''Parameter Setup'''
-device = torch.device("cuda:3" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
 seedd  = 3598
-torch.manual_seed(seedd) # seed the RNG for all devices (both CPU and CUDA)
+torch.manual_seed(seedd) 
 
 phase_num        = 4
 learning_rate    = 0.001
 epoch            = 3000
-data_dir         = './data'
-out_dir          = './outputs'
+data_dir         = './data'           # path to the data
+out_dir          = './outputs_demo'
 if not os.path.exists(out_dir):
     os.makedirs(out_dir)
 
@@ -119,5 +119,5 @@ print('T1R', T1R.shape, T1R.dtype)
 TR = 0.04
 TR_BTS = 0.04
 
-REFINE_MORE(kspace.real, kspace.imag, sensitivity.real,sensitivity.imag,mask,tissue_mask,TR,TR_BTS,EW,EW0,T1R,flip_angles,seedd,learning_rate,phase_num,epoch,out_dir,log_dir,model_dir,result_dir,device)
+REFINE_MORE(kspace.real, kspace.imag, sensitivity.real,sensitivity.imag,mask,tissue_mask,TR,TR_BTS,EW,EW0,T1R,flip_angles,log_dir,model_dir,result_dir,device,learning_rate=1e-3,phase_num=4)
 
