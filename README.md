@@ -79,11 +79,15 @@ Reconstruction results are written to the `outputs/` folder in `.mat` format.
 If you use REFINE-MORE in your research, please cite the corresponding paper:
 
 ```bibtex
-@article{feng2025accelerating,
-  title={Accelerating multiparametric quantitative MRI using self-supervised scan-specific implicit neural representation with model reinforcement},
-  author={Feng, Ruimin and Jang, Albert and He, Xingxin and Liu, Fang},
-  journal={arXiv preprint arXiv:2508.00891},
-  year={2025}
+@article{feng2025,
+author = {Feng, Ruimin and Jang, Albert and He, Xingxin and Liu, Fang},
+title = {Accelerating Multiparametric Quantitative MRI Using Self-Supervised Scan-Specific Implicit Neural Representation With Model Reinforcement},
+journal = {Magnetic Resonance in Medicine},
+volume = {n/a},
+number = {n/a},
+pages = {},
+doi = {https://doi.org/10.1002/mrm.70227},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.70227}
 }
 ```
 
