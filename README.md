@@ -1,10 +1,9 @@
 # Accelerating multiparametric quantitative MRI using self-supervised scan-specific implicit neural representation with model reinforcement
 
-[![arXiv](https://img.shields.io/badge/arXiv-2511.19641-b31b1b.svg)](https://arxiv.org/abs/2508.00891)
 [![MRM](https://img.shields.io/badge/MRM-Accepted-brightgreen)](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.70227)
 
 
-This repository provides the official implementation of the paper: [Accelerating multiparametric quantitative MRI using self-supervised scan-specific implicit neural representation with model reinforcement](https://arxiv.org/abs/2508.00891)
+This repository provides the official implementation of the paper: [Accelerating multiparametric quantitative MRI using self-supervised scan-specific implicit neural representation with model reinforcement](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.70227)
 
 - [Introduction](#introduction)
 - [Project Structure](#project-structure)
