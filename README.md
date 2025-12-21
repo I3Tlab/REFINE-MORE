@@ -83,8 +83,9 @@ If you use REFINE-MORE in your research, please cite the corresponding paper:
 author = {Feng, Ruimin and Jang, Albert and He, Xingxin and Liu, Fang},
 title = {Accelerating Multiparametric Quantitative MRI Using Self-Supervised Scan-Specific Implicit Neural Representation With Model Reinforcement},
 journal = {Magnetic Resonance in Medicine},
-volume = {n/a},
-number = {n/a},
+year = {2025},
+volume = {early access},
+number = {early access},
 pages = {},
 doi = {https://doi.org/10.1002/mrm.70227},
 url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.70227}
